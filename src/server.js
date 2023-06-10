@@ -19,7 +19,7 @@ const init = async () => {
 
   
   await server.register({
-    plugin: notesPlugin,
+    plugin: notes,
     options: { 
       service: notesService,
     },
